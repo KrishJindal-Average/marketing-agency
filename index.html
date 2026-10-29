@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Your Agency | From shoot to feed</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=DM+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Camera viewfinder overlay (always on screen) -->
+  <div class="hud" aria-hidden="true">
+    <i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i>
+    <div class="rec"><b></b>REC</div>
+    <div class="tc" id="tc">00:00:00:00</div>
+    <div class="cross"></div>
+    <div class="ro"><span id="iso">ISO 100</span><span id="fs">f/1.8</span><span id="sh">1/50</span></div>
+  </div>
+  <div class="vig"></div>
+  <div class="blade t" id="bt"></div>
+  <div class="blade b" id="bb"></div>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="orb" style="width:380px;height:380px;background:#D9D3C7;left:8%;top:12%"></div>
+    <div class="orb" style="width:300px;height:300px;background:#CBC8C0;right:10%;bottom:10%"></div>
+    <div>
+      <h1 id="h1"><span data-brand>Your Agency</span><br>shoot to feed.</h1>
+      <p>We script, shoot, edit, design and run your Instagram. One team, start to finish. Scroll to roll camera.</p>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="svc">
+    <div class="wrap">
+      <h2>Everything between the idea and the post.</h2>
+      <div class="grid" id="svc"></div>
+    </div>
+  </section>
+
+  <!-- ===== CAMERA SCENE ===== -->
+  <section class="stage" id="stage">
+    <div class="cap">Our work, shot by shot<small
+        style="display:block;font:400 15px var(--body);color:var(--mute);margin-top:6px">Tap any reel to play it</small>
+    </div>
+    <div class="world" id="world"></div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="proc">
+    <div class="wrap">
+      <h2>How a project runs.</h2>
+      <div class="steps" id="steps"></div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <h2>Let's make your next reel.</h2>
+      <ul id="cl"></ul>
+      <a class="btn" id="cta" href="#">Message us on WhatsApp</a>
+      <small id="copy"></small>
+    </div>
+  </section>
+
+  <!-- Reel player -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Reel player">
+    <button class="lbx" id="lbx">Close</button>
+    <video id="lbv" controls playsinline hidden></video><img id="lbi" alt="Poster" hidden>
+    <div class="lbm" id="lbm"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
