@@ -17,9 +17,9 @@ const CONTACT = {
    Put files in /videos and /posters. Missing files show a placeholder.
    ===================================================== */
 const VIDEOS = [
-  /* VIDEO SLOT 1  */ { src: "video_1.MP4", poster: "posters/reel-1.jpg" },
+  /* VIDEO SLOT 1  */ { src: "video_1.mp4", poster: "posters/reel-1.jpg" },
   /* VIDEO SLOT 2  */ { src: "video_2.MP4", poster: "posters/reel-2.jpg" },
-  /* VIDEO SLOT 3  */ { src: "video_3.MP4", poster: "posters/reel-3.jpg" },
+  /* VIDEO SLOT 3  */ { src: "video_3.mp4", poster: "posters/reel-3.jpg" },
   /* VIDEO SLOT 4  */ { src: "video_4.mp4", poster: "posters/reel-4.jpg" },
   /* VIDEO SLOT 5  */ { src: "video_5.mp4", poster: "posters/reel-5.jpg" },
   /* VIDEO SLOT 6  */ { src: "video_6.mp4", poster: "posters/reel-6.jpg" },
