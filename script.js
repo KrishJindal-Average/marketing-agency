@@ -36,12 +36,13 @@ const VIDEOS = [
    POSTER SLOTS: 6 images (3:4). Change the image path.
    ===================================================== */
 const POSTERS = [
-  /* POSTER SLOT 1 */ "images/poster-1.jpg",
-  /* POSTER SLOT 2 */ "images/poster-2.jpg",
-  /* POSTER SLOT 3 */ "images/poster-3.jpg",
-  /* POSTER SLOT 4 */ "images/poster-4.jpg",
-  /* POSTER SLOT 5 */ "images/poster-5.jpg",
-  /* POSTER SLOT 6 */ "images/poster-6.jpg"
+  /* POSTER SLOT 1 */ "poster_1.jpg",
+  /* POSTER SLOT 2 */ "poster_2.jpg",
+  /* POSTER SLOT 3 */ "poster_3.jpg",
+  /* POSTER SLOT 4 */ "poster_4.jpg",
+  /* POSTER SLOT 5 */ "poster_5.jpg",
+  /* POSTER SLOT 6 */ "poster_6.jpg"
+   
 ];
 
 /* ===== TEXT LISTS: edit services and process steps ===== */
