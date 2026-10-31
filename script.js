@@ -24,7 +24,7 @@ const VIDEOS = [
   /* VIDEO SLOT 5  */ { src: "video_5.mp4", poster: "posters/reel-5.jpg" },
   /* VIDEO SLOT 6  */ { src: "video_6.mp4", poster: "posters/reel-6.jpg" },
   /* VIDEO SLOT 7  */ { src: "video_7.mp4", poster: "posters/reel-7.jpg" },
-  /* VIDEO SLOT 8  */ { src: "videos_8.mp4", poster: "posters/reel-8.jpg" },
+  /* VIDEO SLOT 8  */ { src: "video_8.mp4", poster: "posters/reel-8.jpg" },
   /* VIDEO SLOT 9  */ { src: "video_9.mp4", poster: "posters/reel-9.jpg" },
   /* VIDEO SLOT 10 */ { src: "video_10.mp4", poster: "posters/reel-10.jpg" },
   /* VIDEO SLOT 11 */ { src: "video_11.mp4", poster: "posters/reel-11.jpg" },
