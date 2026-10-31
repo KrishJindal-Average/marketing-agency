@@ -37,10 +37,10 @@ const VIDEOS = [
    ===================================================== */
 const POSTERS = [
   /* POSTER SLOT 1 */ "poster_1.jpg",
-  /* POSTER SLOT 2 */ "poster_2.jpg",
+  /* POSTER SLOT 2 */ "poater_2.jpg",
   /* POSTER SLOT 3 */ "poster_3.jpg",
   /* POSTER SLOT 4 */ "poster_4.jpg",
-  /* POSTER SLOT 5 */ "poster_5.jpg",
+  /* POSTER SLOT 5 */ "poster_5.PNG",
   /* POSTER SLOT 6 */ "poster_6.jpg"
    
 ];
